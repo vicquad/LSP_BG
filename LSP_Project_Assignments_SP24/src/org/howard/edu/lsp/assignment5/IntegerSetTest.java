@@ -188,6 +188,7 @@ public class IntegerSetTest {
         assertFalse(set1.contains(10));
         assertTrue(set1.contains(11));
         assertFalse(set1.contains(12));
+        assertEquals(1,set1.length());
     }
 
     // Test case for diff method
